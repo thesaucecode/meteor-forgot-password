@@ -13,7 +13,7 @@ Either: `$ export MANDRILL_API_KEY=xxxxxxxxxxxxx` in your session before startin
 
 ### 2: Configure 
 
-We expose configuraiton through the namespace `ForgotPassword`.  Set this in your javascript within the scope of both the client and the server.
+We expose configuration through the namespace `ForgotPassword`.  Set this in your javascript within the scope of both the client and the server.
 
 #### template_slug
 
