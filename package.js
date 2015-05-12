@@ -1,6 +1,6 @@
 Package.describe({
   name: 'saucecode:forgot-password',
-  version: '0.1.1',
+  version: '0.1.2',
   summary: 'Send a custom forgot password email template using mandrill'
 });
 
