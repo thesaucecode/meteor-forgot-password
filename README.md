@@ -38,21 +38,11 @@ ForgotPassword.layoutTemplate = 'layout'
 };
 ```
 
-[Cron expression help](http://www.cronmaker.com/)
-[later.js cron reference](http://bunkat.github.io/later/parsers.html#cron)
-
-If you do not wish to run an out of the box job, simply fun the following:
-
-```javascript
-Reporter.remove_job('send_delta_email');
-```
-
 ### 3: Create a Mandrill Mail Template
 
 Create a [mandrill template](https://mandrillapp.com/templates) to be hit by the API.  The two merge tags that you need to include at some point in your template:
 
 - `*|resetPasswordUrl|*` - This is the url to the reset password form with the password reset token
 - `*|subject|*` - You can optionally add this to your mandrill mail template to configure the email subject in your code
-
 
 
