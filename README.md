@@ -1,6 +1,14 @@
 # saucecode:forgot-password
 
-Send a custom forgot password email template using [mandrill](http://mandrill.com/).  This allows you to use the inbuilt accounts-password logic, while keeping your user email branding consistent
+Want your own styling instead of the default accounts-password reset password templates? forgot-password allows you to use the inbuilt accounts-password logic, while keeping your branding/styling consistent.
+
+**forgot-password** enables you to:
+
+- Send a custom forgot password email template using [mandrill](http://mandrill.com/).
+- Define a custom layout for the reset password form.
+- Use Iron router and the default forgot password route.
+
+### Install
 
 Install: `meteor add saucecode:forgot-password`
 
