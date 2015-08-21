@@ -6,7 +6,6 @@ Want your own styling instead of the default accounts-password reset password te
 
 - Send a custom forgot password email template using [mandrill](http://mandrill.com/).
 - Define a custom layout for the reset password form.
-- Use Iron router and the default forgot password route.
 
 ### Install
 
@@ -19,7 +18,7 @@ Install: `meteor add saucecode:forgot-password`
 Either: `$ export MANDRILL_API_KEY=xxxxxxxxxxxxx` in your session before starting meteor or `$ MANDRILL_API_KEY=xxxxxxxxxxx meteor`
 
 
-### 2: Configure 
+### 2: Configure
 
 We expose configuration through the namespace `ForgotPassword`.  Set this in your javascript within the scope of both the client and the server.
 
@@ -52,5 +51,3 @@ Create a [mandrill template](https://mandrillapp.com/templates) to be hit by the
 
 - `*|resetPasswordUrl|*` - This is the url to the reset password form with the password reset token
 - `*|subject|*` - You can optionally add this to your mandrill mail template to configure the email subject in your code
-
-
